@@ -254,7 +254,6 @@ export function Projects() {
                 borderColor: on ? 'var(--color-neon)' : 'var(--color-edge)',
                 boxShadow: on ? '0 18px 50px -22px rgba(255,255,255,0.5)' : 'none',
               }}
-              aria-label={p.title}
               aria-pressed={on}
             >
               <div

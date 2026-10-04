@@ -58,6 +58,7 @@ export const achievements = [
     body: 'First out of multiple teams in a game development workshop run by DevSoc, Asansol Engineering College.',
     icon: 'trophy',
     tag: 'Competition',
+    image: 'certificates/game-development-workshop.jpg',
   },
   {
     title: 'PromptWars × Hacktropica',
@@ -71,6 +72,7 @@ export const achievements = [
     body: 'Industry-aligned training in HTML, CSS and JavaScript — advanced layouts, cross-browser responsiveness.',
     icon: 'certificate',
     tag: 'Certification',
+    image: 'certificates/web-designing-certification.jpg',
   },
   {
     title: 'Competitive Programming — LeetCode',
