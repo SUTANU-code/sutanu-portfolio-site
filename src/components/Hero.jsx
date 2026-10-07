@@ -240,8 +240,13 @@ export function Hero() {
                   src={profile.avatar}
                   alt={`${profile.name} portrait`}
                   className="h-full w-full object-cover"
-                  width="400"
-                  height="400"
+                  width="720"
+                  height="720"
+                  /* Sits high in the frame so the crop keeps the face
+                     rather than the middle of the torso. */
+                  style={{ objectPosition: 'center 22%' }}
+                  fetchPriority="high"
+                  decoding="async"
                 />
                 <div
                   className="absolute inset-0"

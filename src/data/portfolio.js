@@ -15,7 +15,10 @@ export const profile = {
     "I'm a BCA student and aspiring Java / Spring Boot full-stack developer focused on building practical software systems that people can actually use.",
     'My stack runs Java → Spring Boot → Spring Security → REST APIs → JPA/Hibernate → SQL → React. Alongside that I build the AI layer in Python with LangGraph — graph-based agents that plan, call my APIs as tools and drive recovery workflows. So the picture is a Java/Spring backend as the source of truth, with agentic AI on top of it.',
   ],
-  avatar: 'https://avatars.githubusercontent.com/u/191345560?v=4',
+  /* Local file rather than the GitHub avatar so the portrait is the real
+     photo and loads from the same origin — no third-party request, and it
+     still renders if the GitHub avatar is blocked or changes. */
+  avatar: '/portrait.jpg',
   location: 'Asansol, West Bengal, India',
   availability: 'Open to full-stack & backend roles',
   email: 'paulsutanu66@gmail.com',
